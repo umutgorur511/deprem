@@ -1,4 +1,3 @@
-import React from "react";
 import { Layout, Tabs, Typography } from "antd";
 import EarthquakeList from "./earthquake-list";
 import EarthquakeInformation from "./earthquake-information";

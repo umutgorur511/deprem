@@ -11,7 +11,6 @@ const EarthquakeInformation = () => {
           Deprem Öncesi, Anı ve Sonrası Alabileceğiniz Önlemleri Biliyor Musunuz?
         </Title>
 
-        {/* Deprem Öncesi */}
         <Card title="🏠 Deprem Öncesi Alınacak Önlemler" bordered={false}>
           <Paragraph>
             Yerleşim bölgeleri doğru belirlenmeli, kaygan zeminli, ovalık ve çığ riski taşıyan yerlerde yapılaşma olmamalıdır.
@@ -39,7 +38,6 @@ const EarthquakeInformation = () => {
           </Paragraph>
         </Card>
 
-        {/* Deprem Anı */}
         <Divider />
         <Card title="⚠️ Deprem Anında Yapılması Gerekenler" bordered={false}>
           <Title level={4}>🏢 Bina İçindeyseniz</Title>

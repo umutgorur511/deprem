@@ -28,7 +28,7 @@ const EarthquakeStatsChart = () => {
     )
       .then((res) => res.json())
       .then((json) => {
-        const features = json.features.slice(0, 10); // ilk 10 deprem
+        const features = json.features.slice(0, 10); 
         setData(features);
       })
       .finally(() => setLoading(false));
